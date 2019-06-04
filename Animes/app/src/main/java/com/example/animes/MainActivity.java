@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity implements Actions {
         protected Void doInBackground(Void... voids) {
             listaAnimes = new ArrayList<Anime>();
             HttpHandler sh = new HttpHandler();
-            String jsonStr = sh.makeServiceCall("https://my-json-server.typicode.com/mrWolfff/json_metade/db");
+            String jsonStr = sh.makeServiceCall("https://my-json-server.typicode.com/mrWolfff/json_codigo/db");
             String url = "";
             if (jsonStr != null) {
                 try {
